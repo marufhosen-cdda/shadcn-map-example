@@ -5,8 +5,8 @@ import { ModeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-center">
-      <div className="h-[80vh] w-[70%]">
+    <div className="h-screen w-full flex flex-col items-center justify-center p-2 lg:p-0">
+      <div className="h-[85vh] lg:h-[80vh] w-[90%] lg:w-[70%]">
         <div className="flex justify-between w-full">
           <h1 className="text-3xl font-bold text-center text-gray-600 dark:text-gray-400 mb-4">
             <div className="flex gap-2 items-center">
